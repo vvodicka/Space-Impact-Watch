@@ -4,6 +4,8 @@
 
 # Intro
 
+**This article is written on 6th October 2021.**
+
 I decided to create almost an exact copy of old Space Impact game from popular Nokia phones from 2000's from scratch. I managed to complete it and the game is currently on [Appstore](https://apps.apple.com/us/app/space-impact-watch/id1550604563#?platform=iphone). This is an article, how the project went. You can figure out pretty exactly what to expect if you work on a similar project.
 
 # Numbers and dates
