@@ -1,4 +1,4 @@
-# Intimate details about my slightly controversial project
+# Intimate details of my slightly controversial project
 
 <img height="512" src="https://github.com/vvodicka/Space-Impact-Watch/blob/main/initialimage.png?raw=true" width="427"/>
 
