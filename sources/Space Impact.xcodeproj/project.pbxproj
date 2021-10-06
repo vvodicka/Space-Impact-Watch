@@ -1,0 +1,1253 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B3B1770256ED349000C05BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3B176F256ED349000C05BE /* AppDelegate.swift */; };
+		9B3B1775256ED349000C05BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B3B1773256ED349000C05BE /* Main.storyboard */; };
+		9B3B1778256ED349000C05BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B3B1776256ED349000C05BE /* LaunchScreen.storyboard */; };
+		9B3B177D256ED349000C05BE /* Space Impact.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9B3B177C256ED349000C05BE /* Space Impact.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9B3B1783256ED349000C05BE /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B3B1781256ED349000C05BE /* Interface.storyboard */; };
+		9B3B178A256ED349000C05BE /* Space Impact Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9B3B1789256ED349000C05BE /* Space Impact Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9B3B178F256ED349000C05BE /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3B178E256ED349000C05BE /* GameController.swift */; };
+		9B3B1791256ED349000C05BE /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3B1790256ED349000C05BE /* ExtensionDelegate.swift */; };
+		9B3B1794256ED349000C05BE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9B3B1765256ED347000C05BE /* GameScene.sks */; };
+		9B3B1795256ED349000C05BE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9B3B1765256ED347000C05BE /* GameScene.sks */; };
+		9B3B1796256ED349000C05BE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3B1766256ED347000C05BE /* GameScene.swift */; };
+		9B3B1797256ED349000C05BE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3B1766256ED347000C05BE /* GameScene.swift */; };
+		9B3B1798256ED349000C05BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B3B1767256ED349000C05BE /* Assets.xcassets */; };
+		9B3EF4E72583B6F60017D80F /* PowerUp.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 9B3EF4E62583B6F60017D80F /* PowerUp.atlas */; };
+		9B3EF4E82583B6F60017D80F /* PowerUp.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 9B3EF4E62583B6F60017D80F /* PowerUp.atlas */; };
+		9B3EF4ED2583B70C0017D80F /* PowerUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3EF4EC2583B70C0017D80F /* PowerUp.swift */; };
+		9B3EF4EE2583B70C0017D80F /* PowerUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3EF4EC2583B70C0017D80F /* PowerUp.swift */; };
+		9B7CF6DE2585393E00DC4FF1 /* Levels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7CF6DD2585393E00DC4FF1 /* Levels.swift */; };
+		9B7CF6DF2585393E00DC4FF1 /* Levels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7CF6DD2585393E00DC4FF1 /* Levels.swift */; };
+		9BA0524425700E0500904997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B3B1767256ED349000C05BE /* Assets.xcassets */; };
+		9BBD6A91257537CB00B200DA /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBD6A90257537CB00B200DA /* Player.swift */; };
+		9BBD6A92257537CB00B200DA /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBD6A90257537CB00B200DA /* Player.swift */; };
+		9BBD6A9D25753F9200B200DA /* PlayerBullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBD6A9C25753F9200B200DA /* PlayerBullet.swift */; };
+		9BBD6A9E25753F9200B200DA /* PlayerBullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBD6A9C25753F9200B200DA /* PlayerBullet.swift */; };
+		9BBD6AA92575501E00B200DA /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBD6AA82575501E00B200DA /* Enemy.swift */; };
+		9BBD6AAA2575501E00B200DA /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBD6AA82575501E00B200DA /* Enemy.swift */; };
+		9BC23F4225769A8A00D2B5A8 /* Comet.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 9BC23F4125769A8A00D2B5A8 /* Comet.atlas */; };
+		9BC23F4325769A8A00D2B5A8 /* Comet.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 9BC23F4125769A8A00D2B5A8 /* Comet.atlas */; };
+		9BC23F5425769B1300D2B5A8 /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BC23F5225769B1300D2B5A8 /* player.png */; };
+		9BC23F5525769B1300D2B5A8 /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BC23F5225769B1300D2B5A8 /* player.png */; };
+		9BC23F5625769B1300D2B5A8 /* player_bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BC23F5325769B1300D2B5A8 /* player_bullet.png */; };
+		9BC23F5725769B1300D2B5A8 /* player_bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BC23F5325769B1300D2B5A8 /* player_bullet.png */; };
+		9BC23F5F2576A3E900D2B5A8 /* PlayerImmortalityBubble.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 9BC23F5E2576A3E900D2B5A8 /* PlayerImmortalityBubble.atlas */; };
+		9BC23F602576A3E900D2B5A8 /* PlayerImmortalityBubble.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 9BC23F5E2576A3E900D2B5A8 /* PlayerImmortalityBubble.atlas */; };
+		9BC23F6F2576EC8300D2B5A8 /* Commons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC23F6E2576EC8300D2B5A8 /* Commons.swift */; };
+		9BC23F702576EC8300D2B5A8 /* Commons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC23F6E2576EC8300D2B5A8 /* Commons.swift */; };
+		9BC4EA972578333400700C88 /* nokia.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BC4EA962578333400700C88 /* nokia.png */; };
+		9BC4EA982578333400700C88 /* nokia.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BC4EA962578333400700C88 /* nokia.png */; };
+		9BDB8DE8257933A70056A85A /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BDB8DE7257933A70056A85A /* heart.png */; };
+		9BDB8DE9257933A70056A85A /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BDB8DE7257933A70056A85A /* heart.png */; };
+		9BDB8DEE2579350D0056A85A /* Heart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB8DED2579350D0056A85A /* Heart.swift */; };
+		9BDB8DEF2579350D0056A85A /* Heart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB8DED2579350D0056A85A /* Heart.swift */; };
+		9BDB8DF5257941D40056A85A /* nokiafc22.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BDB8DF4257941D40056A85A /* nokiafc22.ttf */; };
+		9BDB8DF6257941D40056A85A /* nokiafc22.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BDB8DF4257941D40056A85A /* nokiafc22.ttf */; };
+		9BDB8E02257A3C130056A85A /* Explosion.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 9BDB8E01257A3C130056A85A /* Explosion.atlas */; };
+		9BDB8E03257A3C130056A85A /* Explosion.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 9BDB8E01257A3C130056A85A /* Explosion.atlas */; };
+		9BDB8E08257A3C2C0056A85A /* Explosion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB8E07257A3C2C0056A85A /* Explosion.swift */; };
+		9BDB8E09257A3C2C0056A85A /* Explosion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB8E07257A3C2C0056A85A /* Explosion.swift */; };
+		9BDB8E14257A49600056A85A /* Numbers.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 9BDB8E13257A49600056A85A /* Numbers.atlas */; };
+		9BDB8E15257A49600056A85A /* Numbers.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 9BDB8E13257A49600056A85A /* Numbers.atlas */; };
+		9BDB8E1A257A496E0056A85A /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB8E19257A496E0056A85A /* Score.swift */; };
+		9BDB8E1B257A496E0056A85A /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB8E19257A496E0056A85A /* Score.swift */; };
+		9BDB8E26257A77000056A85A /* nuke_line_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BDB8E25257A77000056A85A /* nuke_line_icon.png */; };
+		9BDB8E27257A77000056A85A /* nuke_line_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BDB8E25257A77000056A85A /* nuke_line_icon.png */; };
+		9BDB8E2C257A7EB20056A85A /* Nukes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB8E2B257A7EB20056A85A /* Nukes.swift */; };
+		9BDB8E2D257A7EB20056A85A /* Nukes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB8E2B257A7EB20056A85A /* Nukes.swift */; };
+		9BDB8E53257A8D770056A85A /* LineNuke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB8E52257A8D770056A85A /* LineNuke.swift */; };
+		9BDB8E54257A8D770056A85A /* LineNuke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB8E52257A8D770056A85A /* LineNuke.swift */; };
+		9BE3C00A257E84F700797D01 /* nuke_missle_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BE3C009257E84F700797D01 /* nuke_missle_icon.png */; };
+		9BE3C00B257E84F700797D01 /* nuke_missle_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BE3C009257E84F700797D01 /* nuke_missle_icon.png */; };
+		9BE3C010257E860700797D01 /* MissleNuke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE3C00F257E860700797D01 /* MissleNuke.swift */; };
+		9BE3C011257E860700797D01 /* MissleNuke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE3C00F257E860700797D01 /* MissleNuke.swift */; };
+		9BE3C016257E89D000797D01 /* nuke_missle.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BE3C015257E89D000797D01 /* nuke_missle.png */; };
+		9BE3C017257E89D000797D01 /* nuke_missle.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BE3C015257E89D000797D01 /* nuke_missle.png */; };
+		9BE3C01D257FD1A700797D01 /* nuke_laser_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BE3C01B257FD1A600797D01 /* nuke_laser_icon.png */; };
+		9BE3C01E257FD1A700797D01 /* nuke_laser_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BE3C01B257FD1A600797D01 /* nuke_laser_icon.png */; };
+		9BE3C01F257FD1A700797D01 /* nuke_line_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BE3C01C257FD1A700797D01 /* nuke_line_icon.png */; };
+		9BE3C020257FD1A700797D01 /* nuke_line_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BE3C01C257FD1A700797D01 /* nuke_line_icon.png */; };
+		9BE3C025257FD1BA00797D01 /* LaserNuke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE3C024257FD1BA00797D01 /* LaserNuke.swift */; };
+		9BE3C026257FD1BA00797D01 /* LaserNuke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE3C024257FD1BA00797D01 /* LaserNuke.swift */; };
+		9BE3C02B257FD3A700797D01 /* nuke_laser_effect.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BE3C02A257FD3A700797D01 /* nuke_laser_effect.png */; };
+		9BE3C02C257FD3A700797D01 /* nuke_laser_effect.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BE3C02A257FD3A700797D01 /* nuke_laser_effect.png */; };
+		C60381AC265405DB00902871 /* WatchConnectivityProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60381AB265405DB00902871 /* WatchConnectivityProvider.swift */; };
+		C608FCA82631AFDB00237FED /* Egg.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C608FCA72631AFDB00237FED /* Egg.atlas */; };
+		C608FCA92631AFDB00237FED /* Egg.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C608FCA72631AFDB00237FED /* Egg.atlas */; };
+		C608FCB42631C0BB00237FED /* Boss2.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C608FCB32631C0BB00237FED /* Boss2.atlas */; };
+		C608FCB52631C0BB00237FED /* Boss2.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C608FCB32631C0BB00237FED /* Boss2.atlas */; };
+		C608FCCC2632BCE500237FED /* Sperm1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C608FCCB2632BCE500237FED /* Sperm1.atlas */; };
+		C608FCCD2632BCE500237FED /* Sperm1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C608FCCB2632BCE500237FED /* Sperm1.atlas */; };
+		C608FCD22632BCEC00237FED /* Snake3.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C608FCD12632BCEC00237FED /* Snake3.atlas */; };
+		C608FCD32632BCEC00237FED /* Snake3.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C608FCD12632BCEC00237FED /* Snake3.atlas */; };
+		C608FCD82632BCF100237FED /* Snake2.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C608FCD72632BCF100237FED /* Snake2.atlas */; };
+		C608FCD92632BCF100237FED /* Snake2.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C608FCD72632BCF100237FED /* Snake2.atlas */; };
+		C608FCDE2632BCFC00237FED /* Snake1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C608FCDD2632BCFC00237FED /* Snake1.atlas */; };
+		C608FCDF2632BCFC00237FED /* Snake1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C608FCDD2632BCFC00237FED /* Snake1.atlas */; };
+		C608FCE42632BD0500237FED /* Drone1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C608FCE32632BD0500237FED /* Drone1.atlas */; };
+		C608FCE52632BD0500237FED /* Drone1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C608FCE32632BD0500237FED /* Drone1.atlas */; };
+		C608FCEA2632C16600237FED /* Mine1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C608FCE92632C16600237FED /* Mine1.atlas */; };
+		C608FCEB2632C16600237FED /* Mine1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C608FCE92632C16600237FED /* Mine1.atlas */; };
+		C608FCF02632C96C00237FED /* Boss3.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C608FCEF2632C96C00237FED /* Boss3.atlas */; };
+		C608FCF12632C96C00237FED /* Boss3.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C608FCEF2632C96C00237FED /* Boss3.atlas */; };
+		C608FCF62632D4D900237FED /* background2.png in Resources */ = {isa = PBXBuildFile; fileRef = C608FCF52632D4D900237FED /* background2.png */; };
+		C608FCF72632D4D900237FED /* background2.png in Resources */ = {isa = PBXBuildFile; fileRef = C608FCF52632D4D900237FED /* background2.png */; };
+		C61B7A19265438BD006C68EC /* UploadToLeaderboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61B7A18265438BD006C68EC /* UploadToLeaderboardController.swift */; };
+		C62BE2E12645919E0016C18F /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62BE2E02645919E0016C18F /* GameKit.framework */; };
+		C630777E263C36CF003049AF /* Jelly1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C630777D263C36CF003049AF /* Jelly1.atlas */; };
+		C630777F263C36CF003049AF /* Jelly1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C630777D263C36CF003049AF /* Jelly1.atlas */; };
+		C6307781263C3C6F003049AF /* Beatle2.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C6307780263C3C6F003049AF /* Beatle2.atlas */; };
+		C6307782263C3C6F003049AF /* Beatle2.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C6307780263C3C6F003049AF /* Beatle2.atlas */; };
+		C6307784263C45F5003049AF /* Boss6.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C6307783263C45F5003049AF /* Boss6.atlas */; };
+		C6307785263C45F5003049AF /* Boss6.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C6307783263C45F5003049AF /* Boss6.atlas */; };
+		C64C6559264976CA00C582C0 /* SetNameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64C6558264976CA00C582C0 /* SetNameController.swift */; };
+		C64C655B26497BB300C582C0 /* HighScoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64C655A26497BB300C582C0 /* HighScoreController.swift */; };
+		C64C655D2649849F00C582C0 /* RankedModeSpawner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64C655C2649849F00C582C0 /* RankedModeSpawner.swift */; };
+		C64C655E2649855000C582C0 /* RankedModeSpawner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64C655C2649849F00C582C0 /* RankedModeSpawner.swift */; };
+		C6507E252653CE31000C748C /* LeaderBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6507E242653CE31000C748C /* LeaderBoardView.swift */; };
+		C67351A92642CDC300E64516 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C67351A82642CDC300E64516 /* GameKit.framework */; };
+		C67351AB2642CE4F00E64516 /* RankedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67351AA2642CE4F00E64516 /* RankedController.swift */; };
+		C67351AF2642D34100E64516 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67351AE2642D34100E64516 /* GameViewController.swift */; };
+		C67CE0F125C02D2E00E73747 /* background1.png in Resources */ = {isa = PBXBuildFile; fileRef = C67CE0F025C02D2E00E73747 /* background1.png */; };
+		C67CE0F225C02D2E00E73747 /* background1.png in Resources */ = {isa = PBXBuildFile; fileRef = C67CE0F025C02D2E00E73747 /* background1.png */; };
+		C67CE12F25C049C900E73747 /* BackgroundTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67CE12E25C049C900E73747 /* BackgroundTile.swift */; };
+		C67CE13025C049C900E73747 /* BackgroundTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67CE12E25C049C900E73747 /* BackgroundTile.swift */; };
+		C67E346C25BED57E00BF00D6 /* IntroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67E346B25BED57E00BF00D6 /* IntroController.swift */; };
+		C67E347125BED6EA00BF00D6 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67E347025BED6EA00BF00D6 /* MenuController.swift */; };
+		C67E347625BED87A00BF00D6 /* SelectLevelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67E347525BED87A00BF00D6 /* SelectLevelController.swift */; };
+		C67E347B25BEE36E00BF00D6 /* GameOverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67E347A25BEE36E00BF00D6 /* GameOverController.swift */; };
+		C67E348725BEF92A00BF00D6 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67E348625BEF92A00BF00D6 /* SettingsController.swift */; };
+		C69F6B7826401E050046718C /* Boss7.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C69F6B7726401E050046718C /* Boss7.atlas */; };
+		C69F6B7926401E050046718C /* Boss7.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C69F6B7726401E050046718C /* Boss7.atlas */; };
+		C69F6B7B26403B4F0046718C /* Boss8.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C69F6B7A26403B4F0046718C /* Boss8.atlas */; };
+		C69F6B7C26403B4F0046718C /* Boss8.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C69F6B7A26403B4F0046718C /* Boss8.atlas */; };
+		C69F6B7E26403D180046718C /* FinalBoss.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69F6B7D26403D180046718C /* FinalBoss.swift */; };
+		C69F6B7F26403D180046718C /* FinalBoss.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69F6B7D26403D180046718C /* FinalBoss.swift */; };
+		C69F6B812640437E0046718C /* FinalBossTentacle.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C69F6B802640437E0046718C /* FinalBossTentacle.atlas */; };
+		C69F6B822640437E0046718C /* FinalBossTentacle.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C69F6B802640437E0046718C /* FinalBossTentacle.atlas */; };
+		C69F6B842641491D0046718C /* Tentacle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69F6B832641491D0046718C /* Tentacle.swift */; };
+		C69F6B852641491D0046718C /* Tentacle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69F6B832641491D0046718C /* Tentacle.swift */; };
+		C6AAD94B2636FF6500E78C31 /* background3.png in Resources */ = {isa = PBXBuildFile; fileRef = C6AAD94A2636FF6500E78C31 /* background3.png */; };
+		C6AAD94C2636FF6500E78C31 /* background3.png in Resources */ = {isa = PBXBuildFile; fileRef = C6AAD94A2636FF6500E78C31 /* background3.png */; };
+		C6AAD9542637017500E78C31 /* background5.png in Resources */ = {isa = PBXBuildFile; fileRef = C6AAD9502637017500E78C31 /* background5.png */; };
+		C6AAD9552637017500E78C31 /* background5.png in Resources */ = {isa = PBXBuildFile; fileRef = C6AAD9502637017500E78C31 /* background5.png */; };
+		C6AAD9582637017500E78C31 /* background4.png in Resources */ = {isa = PBXBuildFile; fileRef = C6AAD9522637017500E78C31 /* background4.png */; };
+		C6AAD9592637017500E78C31 /* background4.png in Resources */ = {isa = PBXBuildFile; fileRef = C6AAD9522637017500E78C31 /* background4.png */; };
+		C6AAD95A2637017500E78C31 /* background6.png in Resources */ = {isa = PBXBuildFile; fileRef = C6AAD9532637017500E78C31 /* background6.png */; };
+		C6AAD95B2637017500E78C31 /* background6.png in Resources */ = {isa = PBXBuildFile; fileRef = C6AAD9532637017500E78C31 /* background6.png */; };
+		C6AAD9632637070300E78C31 /* Beatle1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C6AAD9622637070300E78C31 /* Beatle1.atlas */; };
+		C6AAD9642637070300E78C31 /* Beatle1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C6AAD9622637070300E78C31 /* Beatle1.atlas */; };
+		C6AAD96926374BC000E78C31 /* Boss4.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C6AAD96826374BC000E78C31 /* Boss4.atlas */; };
+		C6AAD96A26374BC000E78C31 /* Boss4.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C6AAD96826374BC000E78C31 /* Boss4.atlas */; };
+		C6AAD9C126382CB900E78C31 /* SmallEgg.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C6AAD9C026382CB900E78C31 /* SmallEgg.atlas */; };
+		C6AAD9C226382CB900E78C31 /* SmallEgg.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C6AAD9C026382CB900E78C31 /* SmallEgg.atlas */; };
+		C6AAD9C72638308300E78C31 /* Boss5.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C6AAD9C62638308300E78C31 /* Boss5.atlas */; };
+		C6AAD9C82638308300E78C31 /* Boss5.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C6AAD9C62638308300E78C31 /* Boss5.atlas */; };
+		C6BE1CB1264565BA008FD68A /* LeaderBoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BE1CB0264565BA008FD68A /* LeaderBoardController.swift */; };
+		C6BE1CB326456EB1008FD68A /* HelpAndSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BE1CB226456EB1008FD68A /* HelpAndSettingsView.swift */; };
+		C6BE1CB526457B1E008FD68A /* ConnectivityProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BE1CB426457B1E008FD68A /* ConnectivityProvider.swift */; };
+		C6C0C2F725B849C20033D2BF /* EnemyBullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C0C2F625B849C20033D2BF /* EnemyBullet.swift */; };
+		C6C0C2F825B849C20033D2BF /* EnemyBullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C0C2F625B849C20033D2BF /* EnemyBullet.swift */; };
+		C6C0C2FD25B8759D0033D2BF /* Rocket3.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C6C0C2FC25B8759D0033D2BF /* Rocket3.atlas */; };
+		C6C0C2FE25B8759D0033D2BF /* Rocket3.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C6C0C2FC25B8759D0033D2BF /* Rocket3.atlas */; };
+		C6C0C30325B9CB0F0033D2BF /* Boss.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C0C30225B9CB0F0033D2BF /* Boss.swift */; };
+		C6C0C30425B9CB0F0033D2BF /* Boss.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C0C30225B9CB0F0033D2BF /* Boss.swift */; };
+		C6C0C30925B9CEB70033D2BF /* Boss1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C6C0C30825B9CEB70033D2BF /* Boss1.atlas */; };
+		C6C0C30A25B9CEB70033D2BF /* Boss1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C6C0C30825B9CEB70033D2BF /* Boss1.atlas */; };
+		C6D2038025B5B5F400156EC9 /* Rocket1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C6D2037F25B5B5F400156EC9 /* Rocket1.atlas */; };
+		C6D2038125B5B5F400156EC9 /* Rocket1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C6D2037F25B5B5F400156EC9 /* Rocket1.atlas */; };
+		C6FC90E825BB00280043629C /* Rocket2.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C6FC90E725BB00280043629C /* Rocket2.atlas */; };
+		C6FC90E925BB00280043629C /* Rocket2.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C6FC90E725BB00280043629C /* Rocket2.atlas */; };
+		C6FC90ED25BB06080043629C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B3B1767256ED349000C05BE /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B3B177E256ED349000C05BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B3B175F256ED347000C05BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B3B177B256ED349000C05BE;
+			remoteInfo = "Space Impact watchOS App";
+		};
+		9B3B178B256ED349000C05BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B3B175F256ED347000C05BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B3B1788256ED349000C05BE;
+			remoteInfo = "Space Impact watchOS App Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9B3B179F256ED349000C05BE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9B3B178A256ED349000C05BE /* Space Impact Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B3B17A3256ED349000C05BE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				9B3B177D256ED349000C05BE /* Space Impact.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8A8CDF8FAA440D68165DAF66 /* Pods-Space Impact watchOS App Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Space Impact watchOS App Extension.release.xcconfig"; path = "Target Support Files/Pods-Space Impact watchOS App Extension/Pods-Space Impact watchOS App Extension.release.xcconfig"; sourceTree = "<group>"; };
+		9B3B1765256ED347000C05BE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		9B3B1766256ED347000C05BE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		9B3B1767256ED349000C05BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B3B176C256ED349000C05BE /* Space Impact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Impact.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B3B176F256ED349000C05BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B3B1774256ED349000C05BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B3B1777256ED349000C05BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B3B1779256ED349000C05BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B3B177C256ED349000C05BE /* Space Impact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Impact.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B3B1782256ED349000C05BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		9B3B1784256ED349000C05BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B3B1789256ED349000C05BE /* Space Impact Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Space Impact Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B3B178E256ED349000C05BE /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		9B3B1790256ED349000C05BE /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		9B3B1792256ED349000C05BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B3EF4E62583B6F60017D80F /* PowerUp.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = PowerUp.atlas; sourceTree = "<group>"; };
+		9B3EF4EC2583B70C0017D80F /* PowerUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerUp.swift; sourceTree = "<group>"; };
+		9B7CF6DD2585393E00DC4FF1 /* Levels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Levels.swift; sourceTree = "<group>"; };
+		9BBD6A90257537CB00B200DA /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		9BBD6A9C25753F9200B200DA /* PlayerBullet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerBullet.swift; sourceTree = "<group>"; };
+		9BBD6AA82575501E00B200DA /* Enemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		9BC23F4125769A8A00D2B5A8 /* Comet.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Comet.atlas; sourceTree = "<group>"; };
+		9BC23F5225769B1300D2B5A8 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
+		9BC23F5325769B1300D2B5A8 /* player_bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player_bullet.png; sourceTree = "<group>"; };
+		9BC23F5E2576A3E900D2B5A8 /* PlayerImmortalityBubble.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = PlayerImmortalityBubble.atlas; sourceTree = "<group>"; };
+		9BC23F6E2576EC8300D2B5A8 /* Commons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commons.swift; sourceTree = "<group>"; };
+		9BC4EA962578333400700C88 /* nokia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nokia.png; sourceTree = "<group>"; };
+		9BDB8DE7257933A70056A85A /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		9BDB8DED2579350D0056A85A /* Heart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heart.swift; sourceTree = "<group>"; };
+		9BDB8DF4257941D40056A85A /* nokiafc22.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = nokiafc22.ttf; sourceTree = "<group>"; };
+		9BDB8E01257A3C130056A85A /* Explosion.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Explosion.atlas; sourceTree = "<group>"; };
+		9BDB8E07257A3C2C0056A85A /* Explosion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Explosion.swift; sourceTree = "<group>"; };
+		9BDB8E13257A49600056A85A /* Numbers.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Numbers.atlas; sourceTree = "<group>"; };
+		9BDB8E19257A496E0056A85A /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		9BDB8E25257A77000056A85A /* nuke_line_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nuke_line_icon.png; sourceTree = "<group>"; };
+		9BDB8E2B257A7EB20056A85A /* Nukes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nukes.swift; sourceTree = "<group>"; };
+		9BDB8E52257A8D770056A85A /* LineNuke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineNuke.swift; sourceTree = "<group>"; };
+		9BE3C009257E84F700797D01 /* nuke_missle_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nuke_missle_icon.png; sourceTree = "<group>"; };
+		9BE3C00F257E860700797D01 /* MissleNuke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissleNuke.swift; sourceTree = "<group>"; };
+		9BE3C015257E89D000797D01 /* nuke_missle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nuke_missle.png; sourceTree = "<group>"; };
+		9BE3C01B257FD1A600797D01 /* nuke_laser_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nuke_laser_icon.png; sourceTree = "<group>"; };
+		9BE3C01C257FD1A700797D01 /* nuke_line_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nuke_line_icon.png; sourceTree = "<group>"; };
+		9BE3C024257FD1BA00797D01 /* LaserNuke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaserNuke.swift; sourceTree = "<group>"; };
+		9BE3C02A257FD3A700797D01 /* nuke_laser_effect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nuke_laser_effect.png; sourceTree = "<group>"; };
+		B3D56D133BC18CFE395BC8B4 /* Pods-Space Impact iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Space Impact iOS.release.xcconfig"; path = "Target Support Files/Pods-Space Impact iOS/Pods-Space Impact iOS.release.xcconfig"; sourceTree = "<group>"; };
+		C5BFCD63C0029E1B9CB9208C /* Pods-Space Impact watchOS App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Space Impact watchOS App.debug.xcconfig"; path = "Target Support Files/Pods-Space Impact watchOS App/Pods-Space Impact watchOS App.debug.xcconfig"; sourceTree = "<group>"; };
+		C60381AB265405DB00902871 /* WatchConnectivityProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivityProvider.swift; sourceTree = "<group>"; };
+		C608FCA72631AFDB00237FED /* Egg.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Egg.atlas; sourceTree = "<group>"; };
+		C608FCB32631C0BB00237FED /* Boss2.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Boss2.atlas; sourceTree = "<group>"; };
+		C608FCCB2632BCE500237FED /* Sperm1.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sperm1.atlas; sourceTree = "<group>"; };
+		C608FCD12632BCEC00237FED /* Snake3.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Snake3.atlas; sourceTree = "<group>"; };
+		C608FCD72632BCF100237FED /* Snake2.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Snake2.atlas; sourceTree = "<group>"; };
+		C608FCDD2632BCFC00237FED /* Snake1.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Snake1.atlas; sourceTree = "<group>"; };
+		C608FCE32632BD0500237FED /* Drone1.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Drone1.atlas; sourceTree = "<group>"; };
+		C608FCE92632C16600237FED /* Mine1.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Mine1.atlas; sourceTree = "<group>"; };
+		C608FCEF2632C96C00237FED /* Boss3.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Boss3.atlas; sourceTree = "<group>"; };
+		C608FCF52632D4D900237FED /* background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background2.png; sourceTree = "<group>"; };
+		C61B7A18265438BD006C68EC /* UploadToLeaderboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadToLeaderboardController.swift; sourceTree = "<group>"; };
+		C62BE2E02645919E0016C18F /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.4.sdk/System/Library/Frameworks/GameKit.framework; sourceTree = DEVELOPER_DIR; };
+		C630777D263C36CF003049AF /* Jelly1.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Jelly1.atlas; sourceTree = "<group>"; };
+		C6307780263C3C6F003049AF /* Beatle2.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Beatle2.atlas; sourceTree = "<group>"; };
+		C6307783263C45F5003049AF /* Boss6.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Boss6.atlas; sourceTree = "<group>"; };
+		C64C6558264976CA00C582C0 /* SetNameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetNameController.swift; sourceTree = "<group>"; };
+		C64C655A26497BB300C582C0 /* HighScoreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoreController.swift; sourceTree = "<group>"; };
+		C64C655C2649849F00C582C0 /* RankedModeSpawner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankedModeSpawner.swift; sourceTree = "<group>"; };
+		C6507E242653CE31000C748C /* LeaderBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardView.swift; sourceTree = "<group>"; };
+		C67351A82642CDC300E64516 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/System/Library/Frameworks/GameKit.framework; sourceTree = DEVELOPER_DIR; };
+		C67351AA2642CE4F00E64516 /* RankedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankedController.swift; sourceTree = "<group>"; };
+		C67351AE2642D34100E64516 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C67CE0F025C02D2E00E73747 /* background1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background1.png; sourceTree = "<group>"; };
+		C67CE12E25C049C900E73747 /* BackgroundTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundTile.swift; sourceTree = "<group>"; };
+		C67E346B25BED57E00BF00D6 /* IntroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroController.swift; sourceTree = "<group>"; };
+		C67E347025BED6EA00BF00D6 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		C67E347525BED87A00BF00D6 /* SelectLevelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLevelController.swift; sourceTree = "<group>"; };
+		C67E347A25BEE36E00BF00D6 /* GameOverController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverController.swift; sourceTree = "<group>"; };
+		C67E348625BEF92A00BF00D6 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		C67E34C625BF11B100BF00D6 /* Space Impact.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Space Impact.entitlements"; sourceTree = "<group>"; };
+		C69F6B7726401E050046718C /* Boss7.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Boss7.atlas; sourceTree = "<group>"; };
+		C69F6B7A26403B4F0046718C /* Boss8.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Boss8.atlas; sourceTree = "<group>"; };
+		C69F6B7D26403D180046718C /* FinalBoss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalBoss.swift; sourceTree = "<group>"; };
+		C69F6B802640437E0046718C /* FinalBossTentacle.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = FinalBossTentacle.atlas; sourceTree = "<group>"; };
+		C69F6B832641491D0046718C /* Tentacle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tentacle.swift; sourceTree = "<group>"; };
+		C6AAD94A2636FF6500E78C31 /* background3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background3.png; sourceTree = "<group>"; };
+		C6AAD9502637017500E78C31 /* background5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background5.png; sourceTree = "<group>"; };
+		C6AAD9522637017500E78C31 /* background4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background4.png; sourceTree = "<group>"; };
+		C6AAD9532637017500E78C31 /* background6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background6.png; sourceTree = "<group>"; };
+		C6AAD9622637070300E78C31 /* Beatle1.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Beatle1.atlas; sourceTree = "<group>"; };
+		C6AAD96826374BC000E78C31 /* Boss4.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Boss4.atlas; sourceTree = "<group>"; };
+		C6AAD9C026382CB900E78C31 /* SmallEgg.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = SmallEgg.atlas; sourceTree = "<group>"; };
+		C6AAD9C62638308300E78C31 /* Boss5.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Boss5.atlas; sourceTree = "<group>"; };
+		C6BE1CAE264543B7008FD68A /* Space Impact.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Space Impact.entitlements"; sourceTree = "<group>"; };
+		C6BE1CAF264546C8008FD68A /* Space Impact Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Space Impact Extension.entitlements"; sourceTree = "<group>"; };
+		C6BE1CB0264565BA008FD68A /* LeaderBoardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardController.swift; sourceTree = "<group>"; };
+		C6BE1CB226456EB1008FD68A /* HelpAndSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpAndSettingsView.swift; sourceTree = "<group>"; };
+		C6BE1CB426457B1E008FD68A /* ConnectivityProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityProvider.swift; sourceTree = "<group>"; };
+		C6C0C2F625B849C20033D2BF /* EnemyBullet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemyBullet.swift; sourceTree = "<group>"; };
+		C6C0C2FC25B8759D0033D2BF /* Rocket3.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Rocket3.atlas; sourceTree = "<group>"; };
+		C6C0C30225B9CB0F0033D2BF /* Boss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boss.swift; sourceTree = "<group>"; };
+		C6C0C30825B9CEB70033D2BF /* Boss1.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Boss1.atlas; sourceTree = "<group>"; };
+		C6D2037F25B5B5F400156EC9 /* Rocket1.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Rocket1.atlas; sourceTree = "<group>"; };
+		C6FC90E725BB00280043629C /* Rocket2.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Rocket2.atlas; sourceTree = "<group>"; };
+		CD4EC99F7F8D492BBCBF9913 /* Pods-Space Impact watchOS App Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Space Impact watchOS App Extension.debug.xcconfig"; path = "Target Support Files/Pods-Space Impact watchOS App Extension/Pods-Space Impact watchOS App Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		D18479EDFAB2E0AD0D645372 /* Pods-Space Impact watchOS App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Space Impact watchOS App.release.xcconfig"; path = "Target Support Files/Pods-Space Impact watchOS App/Pods-Space Impact watchOS App.release.xcconfig"; sourceTree = "<group>"; };
+		D233973E706D2FF12CC34CEF /* Pods-Space Impact iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Space Impact iOS.debug.xcconfig"; path = "Target Support Files/Pods-Space Impact iOS/Pods-Space Impact iOS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03E97410B2A44FD48AD5E3D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B3B1769256ED349000C05BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67351A92642CDC300E64516 /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B3B1786256ED349000C05BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62BE2E12645919E0016C18F /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B3B175E256ED347000C05BE = {
+			isa = PBXGroup;
+			children = (
+				9B3B1763256ED347000C05BE /* Space Impact Shared */,
+				9B3B176E256ED349000C05BE /* Space Impact iOS */,
+				9B3B1780256ED349000C05BE /* Space Impact watchOS App */,
+				9B3B178D256ED349000C05BE /* Space Impact watchOS App Extension */,
+				9B3B176D256ED349000C05BE /* Products */,
+				C67E34CA25BF11E900BF00D6 /* Frameworks */,
+				C75D60BA5D710F8E099214E7 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		9B3B1763256ED347000C05BE /* Space Impact Shared */ = {
+			isa = PBXGroup;
+			children = (
+				9BDB8DF3257941D40056A85A /* Fonts */,
+				9BA0524825700EB700904997 /* Sprites */,
+				9B3B1765256ED347000C05BE /* GameScene.sks */,
+				9B3B1766256ED347000C05BE /* GameScene.swift */,
+				9B3B1767256ED349000C05BE /* Assets.xcassets */,
+				9BBD6A90257537CB00B200DA /* Player.swift */,
+				9BBD6A9C25753F9200B200DA /* PlayerBullet.swift */,
+				9BBD6AA82575501E00B200DA /* Enemy.swift */,
+				C69F6B7D26403D180046718C /* FinalBoss.swift */,
+				9BDB8E07257A3C2C0056A85A /* Explosion.swift */,
+				9BC23F6E2576EC8300D2B5A8 /* Commons.swift */,
+				9BDB8DED2579350D0056A85A /* Heart.swift */,
+				9BDB8E19257A496E0056A85A /* Score.swift */,
+				9BDB8E2B257A7EB20056A85A /* Nukes.swift */,
+				9BDB8E52257A8D770056A85A /* LineNuke.swift */,
+				9BE3C00F257E860700797D01 /* MissleNuke.swift */,
+				9BE3C024257FD1BA00797D01 /* LaserNuke.swift */,
+				9B3EF4EC2583B70C0017D80F /* PowerUp.swift */,
+				9B7CF6DD2585393E00DC4FF1 /* Levels.swift */,
+				C6C0C2F625B849C20033D2BF /* EnemyBullet.swift */,
+				C6C0C30225B9CB0F0033D2BF /* Boss.swift */,
+				C67CE12E25C049C900E73747 /* BackgroundTile.swift */,
+				C69F6B832641491D0046718C /* Tentacle.swift */,
+				C64C655C2649849F00C582C0 /* RankedModeSpawner.swift */,
+			);
+			path = "Space Impact Shared";
+			sourceTree = "<group>";
+		};
+		9B3B176D256ED349000C05BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B3B176C256ED349000C05BE /* Space Impact.app */,
+				9B3B177C256ED349000C05BE /* Space Impact.app */,
+				9B3B1789256ED349000C05BE /* Space Impact Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B3B176E256ED349000C05BE /* Space Impact iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C67E34C625BF11B100BF00D6 /* Space Impact.entitlements */,
+				9B3B176F256ED349000C05BE /* AppDelegate.swift */,
+				9B3B1773256ED349000C05BE /* Main.storyboard */,
+				9B3B1776256ED349000C05BE /* LaunchScreen.storyboard */,
+				9B3B1779256ED349000C05BE /* Info.plist */,
+				C67351AE2642D34100E64516 /* GameViewController.swift */,
+				C6BE1CB0264565BA008FD68A /* LeaderBoardController.swift */,
+				C6BE1CB226456EB1008FD68A /* HelpAndSettingsView.swift */,
+				C6BE1CB426457B1E008FD68A /* ConnectivityProvider.swift */,
+				C6507E242653CE31000C748C /* LeaderBoardView.swift */,
+			);
+			path = "Space Impact iOS";
+			sourceTree = "<group>";
+		};
+		9B3B1780256ED349000C05BE /* Space Impact watchOS App */ = {
+			isa = PBXGroup;
+			children = (
+				C6BE1CAE264543B7008FD68A /* Space Impact.entitlements */,
+				9B3B1781256ED349000C05BE /* Interface.storyboard */,
+				9B3B1784256ED349000C05BE /* Info.plist */,
+			);
+			path = "Space Impact watchOS App";
+			sourceTree = "<group>";
+		};
+		9B3B178D256ED349000C05BE /* Space Impact watchOS App Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C6BE1CAF264546C8008FD68A /* Space Impact Extension.entitlements */,
+				9B3B178E256ED349000C05BE /* GameController.swift */,
+				9B3B1790256ED349000C05BE /* ExtensionDelegate.swift */,
+				9B3B1792256ED349000C05BE /* Info.plist */,
+				C67E346B25BED57E00BF00D6 /* IntroController.swift */,
+				C67E347025BED6EA00BF00D6 /* MenuController.swift */,
+				C67E347525BED87A00BF00D6 /* SelectLevelController.swift */,
+				C67E347A25BEE36E00BF00D6 /* GameOverController.swift */,
+				C67E348625BEF92A00BF00D6 /* SettingsController.swift */,
+				C67351AA2642CE4F00E64516 /* RankedController.swift */,
+				C64C6558264976CA00C582C0 /* SetNameController.swift */,
+				C64C655A26497BB300C582C0 /* HighScoreController.swift */,
+				C60381AB265405DB00902871 /* WatchConnectivityProvider.swift */,
+				C61B7A18265438BD006C68EC /* UploadToLeaderboardController.swift */,
+			);
+			path = "Space Impact watchOS App Extension";
+			sourceTree = "<group>";
+		};
+		9BA0524825700EB700904997 /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				C67CE0F025C02D2E00E73747 /* background1.png */,
+				C608FCF52632D4D900237FED /* background2.png */,
+				C6AAD94A2636FF6500E78C31 /* background3.png */,
+				C6AAD9522637017500E78C31 /* background4.png */,
+				C6AAD9502637017500E78C31 /* background5.png */,
+				C6AAD9532637017500E78C31 /* background6.png */,
+				C6AAD9622637070300E78C31 /* Beatle1.atlas */,
+				C6307780263C3C6F003049AF /* Beatle2.atlas */,
+				C6C0C30825B9CEB70033D2BF /* Boss1.atlas */,
+				C608FCB32631C0BB00237FED /* Boss2.atlas */,
+				C608FCEF2632C96C00237FED /* Boss3.atlas */,
+				C6AAD96826374BC000E78C31 /* Boss4.atlas */,
+				C6AAD9C62638308300E78C31 /* Boss5.atlas */,
+				C6307783263C45F5003049AF /* Boss6.atlas */,
+				C69F6B7726401E050046718C /* Boss7.atlas */,
+				C69F6B7A26403B4F0046718C /* Boss8.atlas */,
+				9BC23F4125769A8A00D2B5A8 /* Comet.atlas */,
+				C608FCE32632BD0500237FED /* Drone1.atlas */,
+				C608FCA72631AFDB00237FED /* Egg.atlas */,
+				9BDB8E01257A3C130056A85A /* Explosion.atlas */,
+				C69F6B802640437E0046718C /* FinalBossTentacle.atlas */,
+				9BDB8DE7257933A70056A85A /* heart.png */,
+				C630777D263C36CF003049AF /* Jelly1.atlas */,
+				C608FCE92632C16600237FED /* Mine1.atlas */,
+				9BC4EA962578333400700C88 /* nokia.png */,
+				9BE3C02A257FD3A700797D01 /* nuke_laser_effect.png */,
+				9BE3C01B257FD1A600797D01 /* nuke_laser_icon.png */,
+				9BE3C01C257FD1A700797D01 /* nuke_line_icon.png */,
+				9BE3C009257E84F700797D01 /* nuke_missle_icon.png */,
+				9BE3C015257E89D000797D01 /* nuke_missle.png */,
+				9BDB8E13257A49600056A85A /* Numbers.atlas */,
+				9BC23F5325769B1300D2B5A8 /* player_bullet.png */,
+				9BC23F5225769B1300D2B5A8 /* player.png */,
+				9BC23F5E2576A3E900D2B5A8 /* PlayerImmortalityBubble.atlas */,
+				9B3EF4E62583B6F60017D80F /* PowerUp.atlas */,
+				C6D2037F25B5B5F400156EC9 /* Rocket1.atlas */,
+				C6FC90E725BB00280043629C /* Rocket2.atlas */,
+				C6C0C2FC25B8759D0033D2BF /* Rocket3.atlas */,
+				C6AAD9C026382CB900E78C31 /* SmallEgg.atlas */,
+				C608FCDD2632BCFC00237FED /* Snake1.atlas */,
+				C608FCD72632BCF100237FED /* Snake2.atlas */,
+				C608FCD12632BCEC00237FED /* Snake3.atlas */,
+				C608FCCB2632BCE500237FED /* Sperm1.atlas */,
+				9BDB8E25257A77000056A85A /* nuke_line_icon.png */,
+			);
+			path = Sprites;
+			sourceTree = "<group>";
+		};
+		9BDB8DF3257941D40056A85A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9BDB8DF4257941D40056A85A /* nokiafc22.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C67E34CA25BF11E900BF00D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C62BE2E02645919E0016C18F /* GameKit.framework */,
+				C67351A82642CDC300E64516 /* GameKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C75D60BA5D710F8E099214E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D233973E706D2FF12CC34CEF /* Pods-Space Impact iOS.debug.xcconfig */,
+				B3D56D133BC18CFE395BC8B4 /* Pods-Space Impact iOS.release.xcconfig */,
+				C5BFCD63C0029E1B9CB9208C /* Pods-Space Impact watchOS App.debug.xcconfig */,
+				D18479EDFAB2E0AD0D645372 /* Pods-Space Impact watchOS App.release.xcconfig */,
+				CD4EC99F7F8D492BBCBF9913 /* Pods-Space Impact watchOS App Extension.debug.xcconfig */,
+				8A8CDF8FAA440D68165DAF66 /* Pods-Space Impact watchOS App Extension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B3B176B256ED349000C05BE /* Space Impact iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B3B17A4256ED349000C05BE /* Build configuration list for PBXNativeTarget "Space Impact iOS" */;
+			buildPhases = (
+				636104E9616A8CB15BEE279B /* [CP] Check Pods Manifest.lock */,
+				9B3B1768256ED349000C05BE /* Sources */,
+				9B3B1769256ED349000C05BE /* Frameworks */,
+				9B3B176A256ED349000C05BE /* Resources */,
+				9B3B17A3256ED349000C05BE /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B3B177F256ED349000C05BE /* PBXTargetDependency */,
+			);
+			name = "Space Impact iOS";
+			productName = "Space Impact iOS";
+			productReference = 9B3B176C256ED349000C05BE /* Space Impact.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B3B177B256ED349000C05BE /* Space Impact watchOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B3B17A0256ED349000C05BE /* Build configuration list for PBXNativeTarget "Space Impact watchOS App" */;
+			buildPhases = (
+				FDE56977E4321ACC02E541C9 /* [CP] Check Pods Manifest.lock */,
+				9B3B177A256ED349000C05BE /* Resources */,
+				9B3B179F256ED349000C05BE /* Embed App Extensions */,
+				03E97410B2A44FD48AD5E3D9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B3B178C256ED349000C05BE /* PBXTargetDependency */,
+			);
+			name = "Space Impact watchOS App";
+			productName = "Space Impact watchOS App";
+			productReference = 9B3B177C256ED349000C05BE /* Space Impact.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		9B3B1788256ED349000C05BE /* Space Impact watchOS App Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B3B179C256ED349000C05BE /* Build configuration list for PBXNativeTarget "Space Impact watchOS App Extension" */;
+			buildPhases = (
+				B2E05CAEE04247375F12C72E /* [CP] Check Pods Manifest.lock */,
+				9B3B1785256ED349000C05BE /* Sources */,
+				9B3B1786256ED349000C05BE /* Frameworks */,
+				9B3B1787256ED349000C05BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Space Impact watchOS App Extension";
+			productName = "Space Impact watchOS App Extension";
+			productReference = 9B3B1789256ED349000C05BE /* Space Impact Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B3B175F256ED347000C05BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					9B3B176B256ED349000C05BE = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					9B3B177B256ED349000C05BE = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					9B3B1788256ED349000C05BE = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 9B3B1762256ED347000C05BE /* Build configuration list for PBXProject "Space Impact" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B3B175E256ED347000C05BE;
+			productRefGroup = 9B3B176D256ED349000C05BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B3B176B256ED349000C05BE /* Space Impact iOS */,
+				9B3B177B256ED349000C05BE /* Space Impact watchOS App */,
+				9B3B1788256ED349000C05BE /* Space Impact watchOS App Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B3B176A256ED349000C05BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BC4EA972578333400700C88 /* nokia.png in Resources */,
+				C6AAD9582637017500E78C31 /* background4.png in Resources */,
+				C6AAD94B2636FF6500E78C31 /* background3.png in Resources */,
+				9BE3C016257E89D000797D01 /* nuke_missle.png in Resources */,
+				C608FCF62632D4D900237FED /* background2.png in Resources */,
+				C6AAD96926374BC000E78C31 /* Boss4.atlas in Resources */,
+				C608FCEA2632C16600237FED /* Mine1.atlas in Resources */,
+				9BC23F5625769B1300D2B5A8 /* player_bullet.png in Resources */,
+				C69F6B812640437E0046718C /* FinalBossTentacle.atlas in Resources */,
+				9BDB8DE8257933A70056A85A /* heart.png in Resources */,
+				C6307784263C45F5003049AF /* Boss6.atlas in Resources */,
+				C6AAD95A2637017500E78C31 /* background6.png in Resources */,
+				C6AAD9C72638308300E78C31 /* Boss5.atlas in Resources */,
+				9BC23F5425769B1300D2B5A8 /* player.png in Resources */,
+				C608FCF02632C96C00237FED /* Boss3.atlas in Resources */,
+				9BDB8E14257A49600056A85A /* Numbers.atlas in Resources */,
+				C608FCB42631C0BB00237FED /* Boss2.atlas in Resources */,
+				C6307781263C3C6F003049AF /* Beatle2.atlas in Resources */,
+				C6AAD9542637017500E78C31 /* background5.png in Resources */,
+				C6C0C30925B9CEB70033D2BF /* Boss1.atlas in Resources */,
+				9B3B1794256ED349000C05BE /* GameScene.sks in Resources */,
+				C6AAD9632637070300E78C31 /* Beatle1.atlas in Resources */,
+				9B3B1775256ED349000C05BE /* Main.storyboard in Resources */,
+				9BDB8E26257A77000056A85A /* nuke_line_icon.png in Resources */,
+				C608FCCC2632BCE500237FED /* Sperm1.atlas in Resources */,
+				C6D2038025B5B5F400156EC9 /* Rocket1.atlas in Resources */,
+				9BE3C00A257E84F700797D01 /* nuke_missle_icon.png in Resources */,
+				C6C0C2FD25B8759D0033D2BF /* Rocket3.atlas in Resources */,
+				C608FCDE2632BCFC00237FED /* Snake1.atlas in Resources */,
+				C608FCD82632BCF100237FED /* Snake2.atlas in Resources */,
+				C69F6B7B26403B4F0046718C /* Boss8.atlas in Resources */,
+				9B3EF4E72583B6F60017D80F /* PowerUp.atlas in Resources */,
+				9BDB8DF5257941D40056A85A /* nokiafc22.ttf in Resources */,
+				9BE3C01D257FD1A700797D01 /* nuke_laser_icon.png in Resources */,
+				9BDB8E02257A3C130056A85A /* Explosion.atlas in Resources */,
+				9B3B1778256ED349000C05BE /* LaunchScreen.storyboard in Resources */,
+				C608FCD22632BCEC00237FED /* Snake3.atlas in Resources */,
+				C6FC90E825BB00280043629C /* Rocket2.atlas in Resources */,
+				C608FCE42632BD0500237FED /* Drone1.atlas in Resources */,
+				C6AAD9C126382CB900E78C31 /* SmallEgg.atlas in Resources */,
+				9BC23F5F2576A3E900D2B5A8 /* PlayerImmortalityBubble.atlas in Resources */,
+				9BE3C02B257FD3A700797D01 /* nuke_laser_effect.png in Resources */,
+				9BC23F4225769A8A00D2B5A8 /* Comet.atlas in Resources */,
+				9B3B1798256ED349000C05BE /* Assets.xcassets in Resources */,
+				C67CE0F125C02D2E00E73747 /* background1.png in Resources */,
+				C69F6B7826401E050046718C /* Boss7.atlas in Resources */,
+				C630777E263C36CF003049AF /* Jelly1.atlas in Resources */,
+				9BE3C01F257FD1A700797D01 /* nuke_line_icon.png in Resources */,
+				C608FCA82631AFDB00237FED /* Egg.atlas in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B3B177A256ED349000C05BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6FC90ED25BB06080043629C /* Assets.xcassets in Resources */,
+				9B3B1783256ED349000C05BE /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B3B1787256ED349000C05BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6C0C30A25B9CEB70033D2BF /* Boss1.atlas in Resources */,
+				C608FCF72632D4D900237FED /* background2.png in Resources */,
+				9BDB8DE9257933A70056A85A /* heart.png in Resources */,
+				C608FCDF2632BCFC00237FED /* Snake1.atlas in Resources */,
+				9BC23F5725769B1300D2B5A8 /* player_bullet.png in Resources */,
+				C608FCEB2632C16600237FED /* Mine1.atlas in Resources */,
+				C6C0C2FE25B8759D0033D2BF /* Rocket3.atlas in Resources */,
+				9BA0524425700E0500904997 /* Assets.xcassets in Resources */,
+				C608FCE52632BD0500237FED /* Drone1.atlas in Resources */,
+				9B3B1795256ED349000C05BE /* GameScene.sks in Resources */,
+				C608FCB52631C0BB00237FED /* Boss2.atlas in Resources */,
+				C6AAD9C226382CB900E78C31 /* SmallEgg.atlas in Resources */,
+				C69F6B7926401E050046718C /* Boss7.atlas in Resources */,
+				C608FCD92632BCF100237FED /* Snake2.atlas in Resources */,
+				9BDB8DF6257941D40056A85A /* nokiafc22.ttf in Resources */,
+				C6307785263C45F5003049AF /* Boss6.atlas in Resources */,
+				9BDB8E15257A49600056A85A /* Numbers.atlas in Resources */,
+				C6AAD9552637017500E78C31 /* background5.png in Resources */,
+				C608FCCD2632BCE500237FED /* Sperm1.atlas in Resources */,
+				C6AAD96A26374BC000E78C31 /* Boss4.atlas in Resources */,
+				9BC4EA982578333400700C88 /* nokia.png in Resources */,
+				9BE3C020257FD1A700797D01 /* nuke_line_icon.png in Resources */,
+				C608FCD32632BCEC00237FED /* Snake3.atlas in Resources */,
+				9BE3C00B257E84F700797D01 /* nuke_missle_icon.png in Resources */,
+				9BC23F602576A3E900D2B5A8 /* PlayerImmortalityBubble.atlas in Resources */,
+				C6FC90E925BB00280043629C /* Rocket2.atlas in Resources */,
+				9B3EF4E82583B6F60017D80F /* PowerUp.atlas in Resources */,
+				C6D2038125B5B5F400156EC9 /* Rocket1.atlas in Resources */,
+				C6307782263C3C6F003049AF /* Beatle2.atlas in Resources */,
+				C608FCA92631AFDB00237FED /* Egg.atlas in Resources */,
+				9BE3C017257E89D000797D01 /* nuke_missle.png in Resources */,
+				C6AAD94C2636FF6500E78C31 /* background3.png in Resources */,
+				C608FCF12632C96C00237FED /* Boss3.atlas in Resources */,
+				9BE3C01E257FD1A700797D01 /* nuke_laser_icon.png in Resources */,
+				C6AAD95B2637017500E78C31 /* background6.png in Resources */,
+				C67CE0F225C02D2E00E73747 /* background1.png in Resources */,
+				9BC23F5525769B1300D2B5A8 /* player.png in Resources */,
+				9BE3C02C257FD3A700797D01 /* nuke_laser_effect.png in Resources */,
+				9BC23F4325769A8A00D2B5A8 /* Comet.atlas in Resources */,
+				C69F6B7C26403B4F0046718C /* Boss8.atlas in Resources */,
+				C6AAD9642637070300E78C31 /* Beatle1.atlas in Resources */,
+				C6AAD9C82638308300E78C31 /* Boss5.atlas in Resources */,
+				C6AAD9592637017500E78C31 /* background4.png in Resources */,
+				C630777F263C36CF003049AF /* Jelly1.atlas in Resources */,
+				9BDB8E03257A3C130056A85A /* Explosion.atlas in Resources */,
+				9BDB8E27257A77000056A85A /* nuke_line_icon.png in Resources */,
+				C69F6B822640437E0046718C /* FinalBossTentacle.atlas in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		636104E9616A8CB15BEE279B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Space Impact iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2E05CAEE04247375F12C72E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Space Impact watchOS App Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDE56977E4321ACC02E541C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Space Impact watchOS App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B3B1768256ED349000C05BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B7CF6DE2585393E00DC4FF1 /* Levels.swift in Sources */,
+				C69F6B842641491D0046718C /* Tentacle.swift in Sources */,
+				9BC23F6F2576EC8300D2B5A8 /* Commons.swift in Sources */,
+				C6BE1CB526457B1E008FD68A /* ConnectivityProvider.swift in Sources */,
+				C6C0C2F725B849C20033D2BF /* EnemyBullet.swift in Sources */,
+				9BBD6A91257537CB00B200DA /* Player.swift in Sources */,
+				9BDB8E2C257A7EB20056A85A /* Nukes.swift in Sources */,
+				C6C0C30325B9CB0F0033D2BF /* Boss.swift in Sources */,
+				C67351AF2642D34100E64516 /* GameViewController.swift in Sources */,
+				9BBD6A9D25753F9200B200DA /* PlayerBullet.swift in Sources */,
+				C6507E252653CE31000C748C /* LeaderBoardView.swift in Sources */,
+				9BDB8E08257A3C2C0056A85A /* Explosion.swift in Sources */,
+				9B3B1796256ED349000C05BE /* GameScene.swift in Sources */,
+				9BBD6AA92575501E00B200DA /* Enemy.swift in Sources */,
+				9BE3C010257E860700797D01 /* MissleNuke.swift in Sources */,
+				9B3EF4ED2583B70C0017D80F /* PowerUp.swift in Sources */,
+				9BDB8E53257A8D770056A85A /* LineNuke.swift in Sources */,
+				C6BE1CB326456EB1008FD68A /* HelpAndSettingsView.swift in Sources */,
+				C6BE1CB1264565BA008FD68A /* LeaderBoardController.swift in Sources */,
+				9BDB8DEE2579350D0056A85A /* Heart.swift in Sources */,
+				9BDB8E1A257A496E0056A85A /* Score.swift in Sources */,
+				9B3B1770256ED349000C05BE /* AppDelegate.swift in Sources */,
+				9BE3C025257FD1BA00797D01 /* LaserNuke.swift in Sources */,
+				C67CE12F25C049C900E73747 /* BackgroundTile.swift in Sources */,
+				C69F6B7E26403D180046718C /* FinalBoss.swift in Sources */,
+				C64C655E2649855000C582C0 /* RankedModeSpawner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B3B1785256ED349000C05BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67E347125BED6EA00BF00D6 /* MenuController.swift in Sources */,
+				9B7CF6DF2585393E00DC4FF1 /* Levels.swift in Sources */,
+				C6C0C2F825B849C20033D2BF /* EnemyBullet.swift in Sources */,
+				C67E346C25BED57E00BF00D6 /* IntroController.swift in Sources */,
+				9BDB8E54257A8D770056A85A /* LineNuke.swift in Sources */,
+				C67CE13025C049C900E73747 /* BackgroundTile.swift in Sources */,
+				9BC23F702576EC8300D2B5A8 /* Commons.swift in Sources */,
+				9BBD6A92257537CB00B200DA /* Player.swift in Sources */,
+				C69F6B7F26403D180046718C /* FinalBoss.swift in Sources */,
+				C67351AB2642CE4F00E64516 /* RankedController.swift in Sources */,
+				C67E347625BED87A00BF00D6 /* SelectLevelController.swift in Sources */,
+				9BDB8DEF2579350D0056A85A /* Heart.swift in Sources */,
+				C69F6B852641491D0046718C /* Tentacle.swift in Sources */,
+				9BBD6A9E25753F9200B200DA /* PlayerBullet.swift in Sources */,
+				9BDB8E2D257A7EB20056A85A /* Nukes.swift in Sources */,
+				9BDB8E1B257A496E0056A85A /* Score.swift in Sources */,
+				9BDB8E09257A3C2C0056A85A /* Explosion.swift in Sources */,
+				C60381AC265405DB00902871 /* WatchConnectivityProvider.swift in Sources */,
+				C67E347B25BEE36E00BF00D6 /* GameOverController.swift in Sources */,
+				C64C655B26497BB300C582C0 /* HighScoreController.swift in Sources */,
+				9B3B1797256ED349000C05BE /* GameScene.swift in Sources */,
+				9B3B1791256ED349000C05BE /* ExtensionDelegate.swift in Sources */,
+				9BBD6AAA2575501E00B200DA /* Enemy.swift in Sources */,
+				C61B7A19265438BD006C68EC /* UploadToLeaderboardController.swift in Sources */,
+				9B3B178F256ED349000C05BE /* GameController.swift in Sources */,
+				C6C0C30425B9CB0F0033D2BF /* Boss.swift in Sources */,
+				C64C655D2649849F00C582C0 /* RankedModeSpawner.swift in Sources */,
+				C64C6559264976CA00C582C0 /* SetNameController.swift in Sources */,
+				9BE3C026257FD1BA00797D01 /* LaserNuke.swift in Sources */,
+				C67E348725BEF92A00BF00D6 /* SettingsController.swift in Sources */,
+				9B3EF4EE2583B70C0017D80F /* PowerUp.swift in Sources */,
+				9BE3C011257E860700797D01 /* MissleNuke.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B3B177F256ED349000C05BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B3B177B256ED349000C05BE /* Space Impact watchOS App */;
+			targetProxy = 9B3B177E256ED349000C05BE /* PBXContainerItemProxy */;
+		};
+		9B3B178C256ED349000C05BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B3B1788256ED349000C05BE /* Space Impact watchOS App Extension */;
+			targetProxy = 9B3B178B256ED349000C05BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B3B1773256ED349000C05BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B3B1774256ED349000C05BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B3B1776256ED349000C05BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B3B1777256ED349000C05BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9B3B1781256ED349000C05BE /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B3B1782256ED349000C05BE /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B3B179A256ED349000C05BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B3B179B256ED349000C05BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9B3B179D256ED349000C05BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD4EC99F7F8D492BBCBF9913 /* Pods-Space Impact watchOS App Extension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Space Impact watchOS App Extension/Space Impact Extension.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 22;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Space Impact watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = "Space Impact Extension";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Debug;
+		};
+		9B3B179E256ED349000C05BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A8CDF8FAA440D68165DAF66 /* Pods-Space Impact watchOS App Extension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Space Impact watchOS App Extension/Space Impact Extension.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 22;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Space Impact watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = "Space Impact Extension";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Release;
+		};
+		9B3B17A1256ED349000C05BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5BFCD63C0029E1B9CB9208C /* Pods-Space Impact watchOS App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Space Impact watchOS App/Space Impact.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 22;
+				DEVELOPMENT_TEAM = "";
+				IBSC_MODULE = Space_Impact_Extension;
+				INFOPLIST_FILE = "Space Impact watchOS App/Info.plist";
+				MARKETING_VERSION = 1.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = "Space Impact";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Debug;
+		};
+		9B3B17A2256ED349000C05BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D18479EDFAB2E0AD0D645372 /* Pods-Space Impact watchOS App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Space Impact watchOS App/Space Impact.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 22;
+				DEVELOPMENT_TEAM = "";
+				IBSC_MODULE = Space_Impact_Extension;
+				INFOPLIST_FILE = "Space Impact watchOS App/Info.plist";
+				MARKETING_VERSION = 1.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = "Space Impact";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Release;
+		};
+		9B3B17A5256ED349000C05BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D233973E706D2FF12CC34CEF /* Pods-Space Impact iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Space Impact iOS/Space Impact.entitlements";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 22;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Space Impact iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = "Space Impact";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9B3B17A6256ED349000C05BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3D56D133BC18CFE395BC8B4 /* Pods-Space Impact iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Space Impact iOS/Space Impact.entitlements";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 22;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Space Impact iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = "Space Impact";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B3B1762256ED347000C05BE /* Build configuration list for PBXProject "Space Impact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B3B179A256ED349000C05BE /* Debug */,
+				9B3B179B256ED349000C05BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B3B179C256ED349000C05BE /* Build configuration list for PBXNativeTarget "Space Impact watchOS App Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B3B179D256ED349000C05BE /* Debug */,
+				9B3B179E256ED349000C05BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B3B17A0256ED349000C05BE /* Build configuration list for PBXNativeTarget "Space Impact watchOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B3B17A1256ED349000C05BE /* Debug */,
+				9B3B17A2256ED349000C05BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B3B17A4256ED349000C05BE /* Build configuration list for PBXNativeTarget "Space Impact iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B3B17A5256ED349000C05BE /* Debug */,
+				9B3B17A6256ED349000C05BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B3B175F256ED347000C05BE /* Project object */;
+}

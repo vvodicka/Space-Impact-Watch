@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		286A7C66890562ADAE86C9AFCF2A43EF /* Pods-Space Impact watchOS App Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A072E10E6ECE04389F0E9327D17DC356 /* Pods-Space Impact watchOS App Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33C2B339860DF26E870E5FBE9F7350E4 /* Pods-Space Impact iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D04BF4D676B4964631469AE66993AEC4 /* Pods-Space Impact iOS-dummy.m */; };
+		35A84C107646B7B99A8C1F1B1817829B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE35B7430FD7C91E8CC808A3540CF2E /* Foundation.framework */; };
+		7ACB6919023F723A0F2B441C885A2037 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE35B7430FD7C91E8CC808A3540CF2E /* Foundation.framework */; };
+		88F5C7F279F3D731B9E4C4E53D922B89 /* Pods-Space Impact watchOS App Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D88466F5A74E5E3E36E565D0BAABA6 /* Pods-Space Impact watchOS App Extension-dummy.m */; };
+		917B3B2D1897DD669D64EE85F1BE7855 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0A982A9433AACEF8A61353293CF443 /* Foundation.framework */; };
+		A411B137548AE27E0C100BB451FBCA75 /* Pods-Space Impact watchOS App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FFA3F4CEF4C5EA90F4D173428AB4B5 /* Pods-Space Impact watchOS App-dummy.m */; };
+		B9B37C2AD50A8BB716F46DA821F640BF /* Pods-Space Impact watchOS App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27B72329CA85EAE83FE0EB649B48296D /* Pods-Space Impact watchOS App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E262E28890CD6D43BA78EDBDC6D57981 /* Pods-Space Impact iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 241C060AA13EB50012ACA281AA341A3F /* Pods-Space Impact iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01063020E8D3ADF3EC2B907DD73DE366 /* Pods-Space Impact watchOS App Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Space Impact watchOS App Extension.release.xcconfig"; sourceTree = "<group>"; };
+		241C060AA13EB50012ACA281AA341A3F /* Pods-Space Impact iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Space Impact iOS-umbrella.h"; sourceTree = "<group>"; };
+		27B72329CA85EAE83FE0EB649B48296D /* Pods-Space Impact watchOS App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Space Impact watchOS App-umbrella.h"; sourceTree = "<group>"; };
+		36DAE02B1379A778565AF6C956C77F5E /* Pods-Space Impact iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Space Impact iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		387A41310F0D4CB62C390FBC2E0DEECF /* Pods-Space Impact iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Space Impact iOS-Info.plist"; sourceTree = "<group>"; };
+		3DEF0EA26B05AF60DB25A5BC7AC8681D /* Pods_Space_Impact_watchOS_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Space_Impact_watchOS_App.framework; path = "Pods-Space Impact watchOS App.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44BA09817165E35D7CF358864DD013B0 /* Pods-Space Impact watchOS App Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Space Impact watchOS App Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4EC386055B9DF5A4B898BFFD3B5EE59F /* Pods-Space Impact iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Space Impact iOS.modulemap"; sourceTree = "<group>"; };
+		5D0A982A9433AACEF8A61353293CF443 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6BF05A30451ADC7515676FCCBB2FF48C /* Pods-Space Impact iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Space Impact iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		7AA3F2C09D2661F83DC68FCC4EA65ED9 /* Pods-Space Impact watchOS App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Space Impact watchOS App.modulemap"; sourceTree = "<group>"; };
+		8E592BDFFA20779EF242D55D9380FEDF /* Pods-Space Impact watchOS App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Space Impact watchOS App-acknowledgements.plist"; sourceTree = "<group>"; };
+		8F3DE34671E86DFB4024B49E180BB534 /* Pods-Space Impact watchOS App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Space Impact watchOS App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		90FB17E2C4D9E44DDCAB432CBBC6D13C /* Pods-Space Impact watchOS App Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Space Impact watchOS App Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		9A1AFD747F1FA319186DC56F35C5DF80 /* Pods-Space Impact watchOS App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Space Impact watchOS App.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A072E10E6ECE04389F0E9327D17DC356 /* Pods-Space Impact watchOS App Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Space Impact watchOS App Extension-umbrella.h"; sourceTree = "<group>"; };
+		A0D88466F5A74E5E3E36E565D0BAABA6 /* Pods-Space Impact watchOS App Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Space Impact watchOS App Extension-dummy.m"; sourceTree = "<group>"; };
+		B9FD605DAD91DC21345099E59D7A1104 /* Pods-Space Impact watchOS App Extension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Space Impact watchOS App Extension-Info.plist"; sourceTree = "<group>"; };
+		BACD75CBEC29609B72B8A2C369B21993 /* Pods-Space Impact watchOS App Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Space Impact watchOS App Extension.modulemap"; sourceTree = "<group>"; };
+		BFC840C9BC48E0C1B0074DAD17026020 /* Pods-Space Impact watchOS App Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Space Impact watchOS App Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		D04BF4D676B4964631469AE66993AEC4 /* Pods-Space Impact iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Space Impact iOS-dummy.m"; sourceTree = "<group>"; };
+		D4FFA3F4CEF4C5EA90F4D173428AB4B5 /* Pods-Space Impact watchOS App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Space Impact watchOS App-dummy.m"; sourceTree = "<group>"; };
+		DB20A84B9B31074A1E817A793E01A7C2 /* Pods-Space Impact watchOS App-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Space Impact watchOS App-Info.plist"; sourceTree = "<group>"; };
+		DBB587AA78EE4AA5CE90A09738E2A88D /* Pods-Space Impact watchOS App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Space Impact watchOS App.release.xcconfig"; sourceTree = "<group>"; };
+		EB4B17AC6327CF9FAF6332D15F917434 /* Pods_Space_Impact_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Space_Impact_iOS.framework; path = "Pods-Space Impact iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B86A4629FA64BA9B068A98CDF275B5 /* Pods_Space_Impact_watchOS_App_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Space_Impact_watchOS_App_Extension.framework; path = "Pods-Space Impact watchOS App Extension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42C4692BB9CC8345C8ED46D676E2EB3 /* Pods-Space Impact iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Space Impact iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F59114145BF7AFD4D7CF27634258A0E3 /* Pods-Space Impact iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Space Impact iOS.release.xcconfig"; sourceTree = "<group>"; };
+		FCE35B7430FD7C91E8CC808A3540CF2E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8346F4EB9BDB518BBB5C52DB746B92EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				917B3B2D1897DD669D64EE85F1BE7855 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89917A542FE94CB4E89D8F9590D7A6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ACB6919023F723A0F2B441C885A2037 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B110DEE8750EA52C20F79E174A63A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35A84C107646B7B99A8C1F1B1817829B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03FBABE5ACCBF0D21AB61D364299D310 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5D0A982A9433AACEF8A61353293CF443 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		128DA13C42F51903AF3AC424E278A471 /* Pods-Space Impact watchOS App Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BACD75CBEC29609B72B8A2C369B21993 /* Pods-Space Impact watchOS App Extension.modulemap */,
+				44BA09817165E35D7CF358864DD013B0 /* Pods-Space Impact watchOS App Extension-acknowledgements.markdown */,
+				BFC840C9BC48E0C1B0074DAD17026020 /* Pods-Space Impact watchOS App Extension-acknowledgements.plist */,
+				A0D88466F5A74E5E3E36E565D0BAABA6 /* Pods-Space Impact watchOS App Extension-dummy.m */,
+				B9FD605DAD91DC21345099E59D7A1104 /* Pods-Space Impact watchOS App Extension-Info.plist */,
+				A072E10E6ECE04389F0E9327D17DC356 /* Pods-Space Impact watchOS App Extension-umbrella.h */,
+				90FB17E2C4D9E44DDCAB432CBBC6D13C /* Pods-Space Impact watchOS App Extension.debug.xcconfig */,
+				01063020E8D3ADF3EC2B907DD73DE366 /* Pods-Space Impact watchOS App Extension.release.xcconfig */,
+			);
+			name = "Pods-Space Impact watchOS App Extension";
+			path = "Target Support Files/Pods-Space Impact watchOS App Extension";
+			sourceTree = "<group>";
+		};
+		1990C7FFC08A72886FD4B37C68C3D14F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB4B17AC6327CF9FAF6332D15F917434 /* Pods_Space_Impact_iOS.framework */,
+				3DEF0EA26B05AF60DB25A5BC7AC8681D /* Pods_Space_Impact_watchOS_App.framework */,
+				F3B86A4629FA64BA9B068A98CDF275B5 /* Pods_Space_Impact_watchOS_App_Extension.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		416D07331D68A66778F7A31DB2FDE62A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CBBF3A548A5F9CD91BC22C4A953490C /* Pods-Space Impact iOS */,
+				DA96C17CDCDB610A9BDC233E87F9012C /* Pods-Space Impact watchOS App */,
+				128DA13C42F51903AF3AC424E278A471 /* Pods-Space Impact watchOS App Extension */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		54CCD06893F300F5B2C02DAFD57093E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03FBABE5ACCBF0D21AB61D364299D310 /* iOS */,
+				8B063FB5829CC11F1F48DAAF9305FCB4 /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CBBF3A548A5F9CD91BC22C4A953490C /* Pods-Space Impact iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4EC386055B9DF5A4B898BFFD3B5EE59F /* Pods-Space Impact iOS.modulemap */,
+				F42C4692BB9CC8345C8ED46D676E2EB3 /* Pods-Space Impact iOS-acknowledgements.markdown */,
+				36DAE02B1379A778565AF6C956C77F5E /* Pods-Space Impact iOS-acknowledgements.plist */,
+				D04BF4D676B4964631469AE66993AEC4 /* Pods-Space Impact iOS-dummy.m */,
+				387A41310F0D4CB62C390FBC2E0DEECF /* Pods-Space Impact iOS-Info.plist */,
+				241C060AA13EB50012ACA281AA341A3F /* Pods-Space Impact iOS-umbrella.h */,
+				6BF05A30451ADC7515676FCCBB2FF48C /* Pods-Space Impact iOS.debug.xcconfig */,
+				F59114145BF7AFD4D7CF27634258A0E3 /* Pods-Space Impact iOS.release.xcconfig */,
+			);
+			name = "Pods-Space Impact iOS";
+			path = "Target Support Files/Pods-Space Impact iOS";
+			sourceTree = "<group>";
+		};
+		8B063FB5829CC11F1F48DAAF9305FCB4 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				FCE35B7430FD7C91E8CC808A3540CF2E /* Foundation.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				54CCD06893F300F5B2C02DAFD57093E1 /* Frameworks */,
+				1990C7FFC08A72886FD4B37C68C3D14F /* Products */,
+				416D07331D68A66778F7A31DB2FDE62A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DA96C17CDCDB610A9BDC233E87F9012C /* Pods-Space Impact watchOS App */ = {
+			isa = PBXGroup;
+			children = (
+				7AA3F2C09D2661F83DC68FCC4EA65ED9 /* Pods-Space Impact watchOS App.modulemap */,
+				8F3DE34671E86DFB4024B49E180BB534 /* Pods-Space Impact watchOS App-acknowledgements.markdown */,
+				8E592BDFFA20779EF242D55D9380FEDF /* Pods-Space Impact watchOS App-acknowledgements.plist */,
+				D4FFA3F4CEF4C5EA90F4D173428AB4B5 /* Pods-Space Impact watchOS App-dummy.m */,
+				DB20A84B9B31074A1E817A793E01A7C2 /* Pods-Space Impact watchOS App-Info.plist */,
+				27B72329CA85EAE83FE0EB649B48296D /* Pods-Space Impact watchOS App-umbrella.h */,
+				9A1AFD747F1FA319186DC56F35C5DF80 /* Pods-Space Impact watchOS App.debug.xcconfig */,
+				DBB587AA78EE4AA5CE90A09738E2A88D /* Pods-Space Impact watchOS App.release.xcconfig */,
+			);
+			name = "Pods-Space Impact watchOS App";
+			path = "Target Support Files/Pods-Space Impact watchOS App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0C7F5DB2BC484782CF3F9DDB68C6AB0E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E262E28890CD6D43BA78EDBDC6D57981 /* Pods-Space Impact iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55AE1329936BEB85EB6F2D400C010988 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B37C2AD50A8BB716F46DA821F640BF /* Pods-Space Impact watchOS App-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C50156B73D5C1E09B9C5B7817B91945 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286A7C66890562ADAE86C9AFCF2A43EF /* Pods-Space Impact watchOS App Extension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		86ABEB0D7A27150B130C218B7A49D019 /* Pods-Space Impact watchOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFB2EE4311E277991C2ED83F291A4FE2 /* Build configuration list for PBXNativeTarget "Pods-Space Impact watchOS App" */;
+			buildPhases = (
+				55AE1329936BEB85EB6F2D400C010988 /* Headers */,
+				7F80BFB330417BFF8A58D4138FCFA173 /* Sources */,
+				F3B110DEE8750EA52C20F79E174A63A7 /* Frameworks */,
+				762E437C7EF71DF7BE826A893535EB6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Space Impact watchOS App";
+			productName = "Pods-Space Impact watchOS App";
+			productReference = 3DEF0EA26B05AF60DB25A5BC7AC8681D /* Pods_Space_Impact_watchOS_App.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		86C94857EF32B30C849D0FF13BABF3A8 /* Pods-Space Impact iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47D207BE1BF76AAB0F1E9524433972F1 /* Build configuration list for PBXNativeTarget "Pods-Space Impact iOS" */;
+			buildPhases = (
+				0C7F5DB2BC484782CF3F9DDB68C6AB0E /* Headers */,
+				4C55752D6C230C3D553C7D684D22A31D /* Sources */,
+				8346F4EB9BDB518BBB5C52DB746B92EA /* Frameworks */,
+				61703EBD8CB3605E691C1523A4C56598 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Space Impact iOS";
+			productName = "Pods-Space Impact iOS";
+			productReference = EB4B17AC6327CF9FAF6332D15F917434 /* Pods_Space_Impact_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D0AE789CD0EC510956790BAB5390EA08 /* Pods-Space Impact watchOS App Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8687CA4CA0A3C1909C2D6D5ADCEB9A5 /* Build configuration list for PBXNativeTarget "Pods-Space Impact watchOS App Extension" */;
+			buildPhases = (
+				6C50156B73D5C1E09B9C5B7817B91945 /* Headers */,
+				9D8F0F204EB0968381272E1774D1C95B /* Sources */,
+				A89917A542FE94CB4E89D8F9590D7A6F /* Frameworks */,
+				15BAB7AF99134D73316769D501A48568 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Space Impact watchOS App Extension";
+			productName = "Pods-Space Impact watchOS App Extension";
+			productReference = F3B86A4629FA64BA9B068A98CDF275B5 /* Pods_Space_Impact_watchOS_App_Extension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1990C7FFC08A72886FD4B37C68C3D14F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86C94857EF32B30C849D0FF13BABF3A8 /* Pods-Space Impact iOS */,
+				86ABEB0D7A27150B130C218B7A49D019 /* Pods-Space Impact watchOS App */,
+				D0AE789CD0EC510956790BAB5390EA08 /* Pods-Space Impact watchOS App Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15BAB7AF99134D73316769D501A48568 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61703EBD8CB3605E691C1523A4C56598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		762E437C7EF71DF7BE826A893535EB6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C55752D6C230C3D553C7D684D22A31D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C2B339860DF26E870E5FBE9F7350E4 /* Pods-Space Impact iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F80BFB330417BFF8A58D4138FCFA173 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A411B137548AE27E0C100BB451FBCA75 /* Pods-Space Impact watchOS App-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D8F0F204EB0968381272E1774D1C95B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88F5C7F279F3D731B9E4C4E53D922B89 /* Pods-Space Impact watchOS App Extension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		07497A086B44080DCBBCA9710361C593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BF05A30451ADC7515676FCCBB2FF48C /* Pods-Space Impact iOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Space Impact iOS/Pods-Space Impact iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Space Impact iOS/Pods-Space Impact iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0D22CA2F5BA382435ACECA93651E0121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F59114145BF7AFD4D7CF27634258A0E3 /* Pods-Space Impact iOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Space Impact iOS/Pods-Space Impact iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Space Impact iOS/Pods-Space Impact iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		304C5298EAF2227488765B81110380B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBB587AA78EE4AA5CE90A09738E2A88D /* Pods-Space Impact watchOS App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Space Impact watchOS App/Pods-Space Impact watchOS App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Space Impact watchOS App/Pods-Space Impact watchOS App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		7891382E1218BEC2310EFD5824F4A9E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A1AFD747F1FA319186DC56F35C5DF80 /* Pods-Space Impact watchOS App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Space Impact watchOS App/Pods-Space Impact watchOS App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Space Impact watchOS App/Pods-Space Impact watchOS App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		954B8A87911F5D087B73C22B29D2AF63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01063020E8D3ADF3EC2B907DD73DE366 /* Pods-Space Impact watchOS App Extension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Space Impact watchOS App Extension/Pods-Space Impact watchOS App Extension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Space Impact watchOS App Extension/Pods-Space Impact watchOS App Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		B8452842B3B5F3F114534A5CE8F12157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		DC7787D4B03DC7FB602E1FA9061152BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		E12EA57D8A9B4F7AB5A2E09CD540E199 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90FB17E2C4D9E44DDCAB432CBBC6D13C /* Pods-Space Impact watchOS App Extension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Space Impact watchOS App Extension/Pods-Space Impact watchOS App Extension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Space Impact watchOS App Extension/Pods-Space Impact watchOS App Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47D207BE1BF76AAB0F1E9524433972F1 /* Build configuration list for PBXNativeTarget "Pods-Space Impact iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07497A086B44080DCBBCA9710361C593 /* Debug */,
+				0D22CA2F5BA382435ACECA93651E0121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8452842B3B5F3F114534A5CE8F12157 /* Debug */,
+				DC7787D4B03DC7FB602E1FA9061152BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8687CA4CA0A3C1909C2D6D5ADCEB9A5 /* Build configuration list for PBXNativeTarget "Pods-Space Impact watchOS App Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E12EA57D8A9B4F7AB5A2E09CD540E199 /* Debug */,
+				954B8A87911F5D087B73C22B29D2AF63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFB2EE4311E277991C2ED83F291A4FE2 /* Build configuration list for PBXNativeTarget "Pods-Space Impact watchOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7891382E1218BEC2310EFD5824F4A9E3 /* Debug */,
+				304C5298EAF2227488765B81110380B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

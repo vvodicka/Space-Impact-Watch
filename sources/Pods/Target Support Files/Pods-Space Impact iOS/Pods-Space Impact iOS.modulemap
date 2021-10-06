@@ -1,0 +1,6 @@
+framework module Pods_Space_Impact_iOS {
+  umbrella header "Pods-Space Impact iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
